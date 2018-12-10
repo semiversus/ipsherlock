@@ -8,8 +8,10 @@ When you want to know the IP address of your device visit https://ip.jena.at and
 `ipsherlock` client is sending the information about each network adapter. The client is sending a JSON dictionary
 containing the following items:
 
+* `reference` (string, required): Persistent and random string to identify the device
 * `address` (string, required): Address of the device (usuall IPv4 or IPv6 address)
 * `label` (string, optional): Label to be shown
+* `description` (string, optional): markdown description of the device
 * `interface` (string, optional): Used interface to send this request (like `"wlan0"` or `"eth0"`)
 * `links` (list, optional): A list of dictionaries describing links that can be followed
   * `scheme` (string, required): Used scheme (e.g. `http`)
