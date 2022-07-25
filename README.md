@@ -1,8 +1,8 @@
 # How it works
 1. Install `ipsherlock` client on your device
-2. That's it
+2. Visit https://ip.semiversus.com to get the IP address of your devic in your network
 
-When you want to know the IP address of your device visit https://ip.jena.at and see the IP of your local devices.
+When you want to know the IP address of your device visit https://ip.semiversus.com and see the IP of your local devices.
 
 # How it works internally
 `ipsherlock` client is sending the information about each network adapter. The client is sending a JSON dictionary
@@ -19,7 +19,7 @@ containing the following items:
   * `port` (integer, optional): Port number to be used
   * `path` (string, optional): Path section of the URI
   * `query` (string, optional): Query part (the part behind the query operator `?`)
-  * `framgent` (string, optional): Fragment part (begind the fragment operator `#`)
+  * `fragment` (string, optional): Fragment part (begind the fragment operator `#`)
   * `label` (string, optional): Label to show
   * `description` (string, optional): Additional description of this links
 * `data` (object, optional): Additional data for individual purpose
